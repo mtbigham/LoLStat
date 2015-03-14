@@ -1,0 +1,525 @@
+@media all and (min-width: 1400px) and (max-width: 7680px) {
+
+}
+
+@media all and (min-width: 0px) and (max-width: 1024px) {
+
+    /**************** Timeline ***************/
+    .ls_tmtimeline > li .ls-timeline-user {
+        padding-right: 10px;
+        width: 16%;
+    }
+
+    .ls_tmtimeline > li .ls-timeline-user .media a {
+        float: none !important;
+    }
+
+    .ls_tmtimeline > li .ls-timeline-user img {
+        margin: 0 auto;
+    }
+
+    .ls-timeline-user .media-heading {
+        margin-top: 0;
+    }
+
+    .ls_tmtimeline > li .ls_tmicon {
+        left: 20%;
+    }
+
+    .ls_tmtimeline:before {
+        left: 20%;
+    }
+
+    .ls_tmtimeline > li .ls_tmlabel {
+        margin-left: 25%;
+        min-height: 160px;
+    }
+
+    .ls_tmtimeline > li .ls_tmicon_ls {
+        left: 17.5%;
+    }
+
+    .ls_tmtimeline > li .ls_tmlabel iframe {
+        height: 250px;
+    }
+
+    /*****************************************/
+
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+
+}
+@media all  and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /****** Index Page  ******/
+    .feature-weather ul li a{
+        padding: 10px 5px;
+    }
+    .change-color-switch ul li{
+        margin: 0;
+    }
+    /****** Index Page End ******/
+
+}
+@media all and (min-width: 0px) and (max-width: 995px) {
+
+}
+
+@media all and (min-width: 0px) and (max-width: 768px) {
+    /****** Index Page  ******/
+    .feature-weather ul li a{
+        padding: 10px 10px;
+    }
+    .change-color-switch ul li{
+        margin: 0 0 0 5px;
+    }
+    .menu-control{
+        display: none;
+    }
+    .current-status-widget ul{
+        margin-top: 15px;
+    }
+    .current-status-widget ul li{
+        width: 50%;
+        float: left;
+    }
+    .social-share-box{
+        margin-top: 15px;
+    }
+    .social-share-box .social-share{
+        width:24%;
+    }
+    .icon-tab.icon-tab-home li a span{
+        display: inline-block;
+    }
+
+
+    /****** Index Page End ******/
+    .icon-tab li a span{
+        display: none;
+    }
+    /***** mail page start *****/
+    .mail-navigation li{
+        width:60px
+    }
+    .mail-contact-address{
+        width: 65%;
+    }
+    .mail-contact-user-image-box{
+        width: 35%;
+    }
+    .mail-contact-user-image-box{
+        width: 20%;
+    }
+    /***** mail page End   *****/
+    /***** Form page  Start ******/
+    .form-horizontal .form-group{
+        margin-left: 0;
+    }
+    .input-group{
+        margin-bottom: 15px;
+    }
+    /***** Form page  end   ******/
+
+    /************************Timeline************************/
+    .ls_tmtimeline > li .ls_tmlabel {
+        margin-left: 27%;
+    }
+
+    .ls_tmtimeline > li .ls_tmlabel iframe {
+        height: 250px;
+    }
+
+    .ls_tmtimeline > li .ls_tmicon_ls {
+        margin-left: -30px;
+    }
+
+    .ls_tmlabel ul.task li {
+        margin-bottom: 10px;
+    }
+
+    /**********************************************************/
+}
+
+@media all and (min-width: 0px) and (max-width: 767px) {
+    /****** Index Page  ******/
+    .menu-control{
+        display: block;
+    }
+    .pie-widget{
+        margin-bottom: 15px;
+    }
+    .monthlySale .progress.vertical{
+        width:30px;
+    }
+    .progress.vertical{
+        margin: 0 5px;
+    }
+    .seriesToggleWidget{
+        width:100%;
+        height: 210px;
+    }
+    #choicesWidget{
+        width: 100%;
+        text-align: center;
+    }
+    #choicesWidget li{
+        display: inline-block;
+        margin-bottom:0;
+        margin-top: 15px;
+    }
+    .current-weather{
+        margin-top: 15px;
+    }
+    .current-weather-icon{
+        padding-top:7%
+    }
+    .feature-weather ul li a{
+        padding: 10px 35%;
+    }
+
+    /****** Index Page End ******/
+   .nav.icon-tab  > li > a{
+        padding: 5px 10px;
+    }
+    .icon-tab.nav-tabs.nav-justified{
+        border-bottom:1px solid #E3DFD8;
+    }
+    .icon-tab.nav-tabs.nav-justified > li{
+        float: left;
+    }
+    .icon-tab.nav-tabs.nav-justified > li > a{
+        border-radius: 1px;
+        -moz-border-radius: 1px;
+        -webkit-border-radius: 1px;
+        margin-right:0;
+        margin-bottom:0;
+    }
+    .icon-tab.nav-tabs.nav-justified > .active > a,
+    .icon-tab.nav-tabs.nav-justified > .active > a:hover,
+    .icon-tab.nav-tabs.nav-justified > .active > a:focus{
+        border-bottom:1px solid #fff;
+    }
+    .icon-list li i{
+        font-size: 20px;
+    }
+    /****** Ui Element page start ******/
+    .demo-btn .btn, .demo-btn .btn-group,  .demo-btn .switchery, .demo-btn .bootstrap-switch{
+        margin-bottom: 15px;
+    }
+    /****** Ui Element page End   ******/
+}
+@media all and (min-width: 0px) and (max-width: 650px) {
+    .ls-glyphicons li{
+        width: 50%;
+    }
+    .phone-nav-box{
+        display: none !important;
+    }
+    /***** mail page start *****/
+    .mail-box-list{
+        width: 100%;
+    }
+    .mail-body{
+        width: 100%;
+        padding-left: 0;
+        margin-top: 15px;
+    }
+    /***** mail page End   *****/
+
+    /***** Map page Start   *****/
+    .ls-map-locator ul li a i.fa{
+        font-size: 20px;
+    }
+    .ls-map-locator ul li a img{
+        width: 30px;
+    }
+    /***** Map page end     *****/
+    /***** Widget page Start *****/
+    .ls-circle-widget{
+        height: 100px;
+        width: 100px;
+        margin-bottom: 15px;
+    }
+    .ls-circle-widget h1{
+        font-size: 11px;
+    }
+    .ls-circle-widget i{
+        line-height: 100px;
+        font-size: 30px;
+    }
+    .ls-circle-widget:hover i, .ls-circle-widget.active i{
+        font-size:20px;
+        line-height: 40px;
+        padding-top: 20px;
+    }
+    .ls-wizard, .weatherFeed, .simpleWeather, .ls-widget-box{
+        margin-bottom: 15px;
+    }
+    /***** Widget page End   *****/
+
+}
+
+
+
+
+
+@media all and (min-width: 0px) and (max-width: 480px) {
+    /*Layout Start*/
+    .phone-nav-box{
+        display: block!important;
+    }
+    .top-navigation{
+        float: none;
+        text-align: center;
+    }
+    .top-navigation ul{
+        float: none;
+    }
+    .top-navigation ul li{
+        text-align: left;
+    }
+    .navigation a h1{
+        line-height: 45px;
+        font-size: 35px;
+    }
+
+    .top-navigation .dropdown-menu.right{
+        left: -90px;
+    }
+    .top-navigation .dropdown-menu.right.top-dropDown-1{
+        left: -25px;
+    }
+
+    /*Layout End */
+
+
+    .header-logo{
+        float: none;
+        width: 100%;
+    }
+
+    .top-navigation ul li.only-phone{
+        display: inline;
+    }
+    ul.mainNav{
+        display: none;
+    }
+
+    #left-navigation{
+        position: relative;
+        width: 100%;
+    }
+    #min-wrapper{
+        padding-left: 0;
+    }
+    /*#right-wrapper{
+        position: absolute;
+    }*/
+    /********* Layout end *********/
+    /****** Index Page  ******/
+    .memberBox-details ul li{
+        padding: 0 4%;
+    }
+    /****** Index Page  End******/
+    /***** mail page start *****/
+    .mail-contact-user-image-box{
+        display: none;
+    }
+    .mail-contact-address{
+        width: 100%;
+    }
+    .mail-action-bar ul li a{
+        margin: 0 10px;
+    }
+    /***** mail page End   *****/
+    /*Calender page start */
+    span.fc-header-title h2{
+        font-size: 16px;
+    }
+    .fc .fc-header-space{
+        padding-left: 5px;
+    }
+    .fc-button{
+        padding: 0 4px;
+    }
+    /*Calender page end   */
+
+    /***** Map page Start   *****/
+    .world_map{
+        height: 300px;
+    }
+    #map_decoration{
+        height: 300px;
+    }
+    /***** Map page End   *****/
+
+
+    /*****  Coming soon page Start  *****/
+    .coming-soon h1{
+        font-size: 32px;
+    }
+    /*****  Coming soon page End    *****/
+}
+
+
+
+@media all and (min-width: 0px) and (max-width: 479px) {
+    /****** Index Page  ******/
+    .memberBox-details ul li{
+        padding: 0 4%;
+    }
+    .current-status-widget ul li{
+        float: none;
+        width: 100%;
+    }
+    .feature-weather ul li a{
+        padding: 10px 15%;
+    }
+    .social-share-box .social-share{
+        width: 49%;
+    }
+    /****** Index Page  End******/
+
+    /***** mail page start *****/
+    .mail-action-bar ul li a{
+        margin: 0 5px;
+    }
+    /***** mail page End   *****/
+    /***** Form page  Start ******/
+    .swMainVertical ul.anchor{
+        width: 100%;
+    }
+    .swMainVertical ul.anchor li{
+        float: none;
+        display: inline-block;
+    }
+    /***** Form page  End ******/
+    /*Element page start*/
+    .demo-badge >span.badge{
+        margin-bottom: 15px;
+    }
+    /*Element page End  */
+
+    /*****  Chart Page page Start    *****/
+    #choices li{
+        display: list-item;
+    }
+    /*****  Chart Page page End    *****/
+
+    /***********************Timeline**************************/
+    .ls_tmtimeline > li .ls-timeline-user {
+        /*position: absolute;*/
+        width: 100%;
+        height: 100%;
+        z-index: 999;
+    }
+
+    .ls-timeline-user .media-heading {
+        color: #FFFFFF;
+        position: absolute;
+        left: 95px;
+        top: 15px;
+        z-index: 999;
+    }
+
+    .ls_tmtimeline > li .ls_tmtime span:first-child {
+        position: absolute;
+        left: 95px;
+        top: 35px;
+        font-size: 13px;
+        color: #252525 !important;
+    }
+
+    .ls_tmtimeline > li .ls_tmtime span:last-child {
+        position: absolute;
+        right: 10px;
+        bottom: 5px;
+        margin-top: 10px;
+        font-size: 17px;
+        color: #353535 !important;
+    }
+
+    .ls_tmtimeline > li .ls-timeline-user img {
+        float: right;
+        margin-top: 10px;
+    }
+
+    .ls_tmtimeline > li .ls-timeline-user .media-body {
+        width: 100%;
+    }
+
+    .ls_tmtimeline > li .ls_tmlabel h2 {
+        margin-top: 60px;
+        font-size: 20px;
+    }
+
+    .ls_tmtimeline > li .ls_tmicon {
+        left: 10%;
+    }
+
+    .ls_tmtimeline > li .ls_tmlabel {
+        margin-left: 23%;
+        padding-bottom: 40px;
+    }
+
+    .ls_tmtimeline:before {
+        left: 10%;
+    }
+
+    .ls_tmtimeline > li .ls_tmicon_ls {
+        margin-left: -28px;
+    }
+
+    .ls_tmlabel ul li {
+        z-index: 9999;
+    }
+
+    /**********************************************************/
+
+}
+@media all and (min-width: 0px) and (max-width: 400px) {
+    /*Element Page Start*/
+    .element-progress.v-progressbar .progress.vertical{
+        width: 40px;
+    }
+    /*Element Page End*/
+    /***** Map page Start   *****/
+    .ls-map-locator ul li a span{
+        font-size: 10px;
+    }
+    .ls-map-locator ul li a i.fa{
+        font-size: 20px;
+    }
+    .ls-map-locator ul li a img{
+        width: 25px;
+    }
+    /***** Map page end     *****/
+
+}
+@media all and (min-width: 0px) and (max-width: 359px) {
+
+    /*************** TimeLine ******************/
+    .ls-timeline-user .media-heading {
+        left: 80px;
+    }
+
+    .ls_tmtimeline > li .ls_tmtime span:first-child {
+        left: 80px;
+
+    }
+
+    .ls_tmlabel ul li img {
+        width: 88px;
+    }
+
+    .ls_tmtimeline > li .ls_tmicon_ls {
+        margin-left: -24px;
+    }
+
+    .ls_tmtimeline > li .ls_tmlabel iframe {
+        height: 200px;
+    }
+
+    /*******************************************/
+
+}
