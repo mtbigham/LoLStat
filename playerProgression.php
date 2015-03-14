@@ -31,7 +31,35 @@ if(isset($_GET['champID']) && isset($_GET['summonerID']))
     }
 
     echo '<pre>';
-    var_dump($myStats);
+    //var_dump($myStats);
+
+    $myStatsAvg = array(
+        "zeroToTen" => ["CSpm" => 0.0, "XPpm" => 0.0, "Gpm" => 0.0, "CSpmd" => 0.0, "XPpmd" => 0.0],
+        "tenToTwenty" => ["CSpm" => 0.0, "XPpm" => 0.0, "Gpm" => 0.0, "CSpmd" => 0.0, "XPpmd" => 0.0],
+        "twentyToThirty" => ["CSpm" => 0.0, "XPpm" => 0.0, "Gpm" => 0.0, "CSpmd" => 0.0, "XPpmd" => 0.0],
+        "thirtyToEnd" => ["CSpm" => 0.0, "XPpm" => 0.0, "Gpm" => 0.0, "CSpmd" => 0.0, "XPpmd" => 0.0]
+    );
+
+    foreach($myStats as $typeName => $type)
+    {
+        //echo '<br>', $typeName, '<br>'; //$type = array
+        foreach($type as $gameNum => $game)
+        {
+            //echo $gameNum, '<br>';
+            foreach($game as $key => $val)
+            {
+                //echo "$key: $val<br>";
+
+                if(array_key_exists($key, $myStatsAvg) && array_key_exists($typeName, $myStatsAvg[$key]))
+                {
+                    echo $myStatsAvg[$key[$typeName]]; //= $myStatsAvg[$key[$typeName]] + $val;
+                }
+            }
+        }
+    }
+
+    //echo '<pre>';
+    //var_dump($myStatsAvg);
 }
 
 ?>
